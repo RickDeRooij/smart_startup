@@ -1,15 +1,34 @@
+@font-face {
+    font-family: ginbold;
+    src: url(../fonts/ginbold.otf);
+}
+@font-face {
+    font-family: ginrec;
+    src: url(../fonts/ginrec.otf);
+}
+
+body{
+    background-color: #f3f7fd;
+}
+.st0{fill:#FAB628;}
+
+#svg{
+    width: 50%;
+}
 #cirkcontain{
     width: 100%;
-    height: 700px;
+    height: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #cirkel{
-    background-color: grey;
-    width: 500px;
-    height: 500px;
+    background-color: white;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
+    position: relative;
+    top: 100px;
 }
 #catain{
     display: flex;
@@ -17,11 +36,22 @@
     align-items: center;
     width: 100%;
     height: 300px;
+    position: relative;
+    top: 300px;
 }
 #tekstcontainer{
-    width: 600px;
+    width: 800px;
     height: 100px;
     text-align: center;
+}
+#titleh1{
+    font-family: ginbold;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+#tekstp{
+    font-family: ginbold;
+    font-size: 30px;
 }
 #allfacebook{
     height: 600px;
@@ -29,34 +59,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 200px;
 }
 #loginfacebook{
-    width: 650px;
+    width: 800px;
     height: 120px;
-    background-color: grey;
+    background-color: black;
     border-radius: 25px;
     text-align: center;
     font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-family: ginrec;
+
 }
 #linkies{
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: ginrec;
+
 }
-.login{
-    width: 250px;
+.login {
+    width: 325px;
     height: 125px;
-    background-color: grey;
+    background-color: dimgrey;
     border-radius: 25px;
     text-align: center;
     font-size: 50px;
-    margin: 75px;
-    margin-bottom: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
