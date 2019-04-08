@@ -59,16 +59,18 @@ input{
     padding-left: 10px;
 }
 button{
-    width: 610px;
-    height: 180px;
+    width: 300px;
+    height: 125px;
     background-color: dimgrey;
     border-radius: 25px;
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     font-family: ginrec;
+    position: relative;
+    left: 150px;
 }
 #password{
     font-family: ginbold;
     font-size: 50px;
-    padding-top: 25px;
+    padding-bottom: 25px;
 }
