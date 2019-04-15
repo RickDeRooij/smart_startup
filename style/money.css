@@ -1,0 +1,17 @@
+@font-face {
+    font-family: ginbold;
+    src: url(../fonts/ginbold.otf);
+}
+@font-face {
+    font-family: ginrec;
+    src: url(../fonts/ginrec.otf);
+}
+
+body{
+    background-color: #f3f7fd;
+}
+.st0{fill:#FAB628;}
+
+#svg{
+    width: 50%;
+}
